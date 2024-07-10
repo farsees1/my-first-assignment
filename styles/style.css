@@ -317,7 +317,7 @@ border: 1px solid rgba(13, 19, 33,.15);
 border-radius: 8px;
 background: rgb(255, 255, 255);
 }
-port>form>#Support::placeholder{
+.support>form>#Support::placeholder{
     color: rgba(13, 19, 33, 0.4);
 font-family: Azeret Mono;
 font-size: 16px;
