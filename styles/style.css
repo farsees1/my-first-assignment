@@ -8,10 +8,10 @@ body{
 }
 .Home{
     width: 1440px;
-    height: 652px;
+    height: 680px;
     background-image: url(../assets/Hero-bg.png);
     background-size: cover;
-    margin: auto;
+    margin:auto;
    
 }
 .ContainerHome{
@@ -22,9 +22,12 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:10px;
+    gap: 20px;
 
 
+}
+.homeImg{
+    margin-top: 50px;
 }
 .ContainerHome>h1{
     color: rgb(13, 19, 33);
@@ -47,7 +50,7 @@ opacity: .7;
 }
 .btn{
     padding: 21px 24px 21px 24px;
-    color: rgb(255, 255, 255);
+    
 font-family: Azeret Mono;
 font-size: 20px;
 font-weight: 600;
@@ -56,6 +59,10 @@ letter-spacing: 0%;
 text-align: center;
 border-radius: 8px;
 background: rgb(13, 19, 33);
+}
+.btn>a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 .objectives{
     
@@ -71,6 +78,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+
 }
 .objtitle>h1{
     color: rgb(13, 19, 33);
@@ -80,6 +88,7 @@ font-weight: 800;
 line-height: 37px;
 letter-spacing: 0%;
 text-align: center;
+margin: 10px;
 }
 .objtitle>p{
     color: rgb(13, 19, 33);
@@ -123,6 +132,7 @@ font-weight: 700;
 line-height: 36px;
 letter-spacing: 0%;
 text-align: left;
+margin:15px;
 }
 .writing>p{
     color: rgb(13, 19, 33);
@@ -133,6 +143,7 @@ line-height: 26px;
 letter-spacing: 0%;
 text-align: left;
 opacity: .7;
+margin:15px;
 }
 .writing{
     width: 477px;
@@ -148,7 +159,8 @@ text-align: center;
 box-sizing: border-box;
 border: 1px solid rgb(13, 19, 33);
 opacity: 0.7;
-padding: 12px 20px 12px 20px
+padding: 12px 20px 12px 20px;
+margin: 15px;
 }
 .insCon{
     width: 1140px;
@@ -160,7 +172,7 @@ justify-content: center;
 align-items: center;
 }
 .insTitle{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .insTitle>h1{
     color: rgb(13, 19, 33);
@@ -170,6 +182,7 @@ font-weight: 800;
 line-height: 37px;
 letter-spacing: 0%;
 text-align: center;
+margin-bottom: 10px;
 }
 .insTitle>p{
     color: rgb(13, 19, 33);
@@ -211,6 +224,7 @@ font-weight: 800;
 line-height: 37px;
 letter-spacing: 0%;
 text-align: center;
+margin-bottom: 10px;
 }
 .TarTitle>p{
     color: rgb(13, 19, 33);
@@ -221,13 +235,16 @@ line-height: 26px;
 letter-spacing: 0%;
 text-align: center;
 opacity:.7;
+margin-bottom: 10px;
 }
 .targetItems{
     display: flex;
     justify-content: center;
+
 }
 .item1{
-    width: 284px;
+    
+width: 284px;
 height: 219px;
 padding: 40px;
 margin: 32px 24px;
@@ -291,6 +308,7 @@ justify-content: center;
 align-items: center;
 padding: 64px 48px 64px 48px;
 border-radius: 16px;
+gap:20px;
 
 }
 .supportTitle > h1{
@@ -301,6 +319,7 @@ font-weight: 700;
 line-height: 36px;
 letter-spacing: 0%;
 text-align: center;
+margin-bottom: 10px;
 }
 .supportTitle > p{
     color: rgb(255, 255, 255);
@@ -370,4 +389,7 @@ text-align: center;}
     width: 157.01px;
 height: 36px;
 text-align: center;
+}
+.margin{
+    margin-bottom: 15px;
 }
